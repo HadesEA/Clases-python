@@ -21,4 +21,4 @@ def saludar_personas(*nombres, saludar="Hola, buenas tardes"):
 lista_saludos = saludar_personas("Juan", "Pedro", "Ana", saludar="¡Qué tal!")
 
 for saludo in lista_saludos:
-    print(saludo)
+    print(saludo) 
