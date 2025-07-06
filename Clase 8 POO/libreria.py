@@ -1,4 +1,6 @@
-""" Manera de utilizar un archivo de otra carpeta (carpeta que contiene espacios en el nombre) """
+""" Manera de utilizar un archivo de otra carpeta (carpeta que contiene espacios en el nombre) 
+El código comentado abajo debe ir en el archivo en el que vamos a usar esta librería de manera importada
+"""
 # import os
 # import sys
 
@@ -8,8 +10,8 @@
 # print(os.listdir(ruta_absoluta))
 # import calculadora
 
-class calculadora:
-    def __init__(self, x, y):
+class calculadora: # Se recomienda usar la primera letra en mayúscula para que sea más identificable.
+    def __init__(self, x, y): # Constructor de la clase Calculadora
         self.x = x
         self.y = y
     
