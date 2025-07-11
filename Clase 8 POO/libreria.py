@@ -64,7 +64,7 @@ class calculadora: # Se recomienda usar la primera letra en mayúscula para que 
         """
         Se recibe el objeto self del cuál se toma el valor de x 
         el cuál contiene el número brindado por el usuario
- 
+
         Dentro de la función se saca la raiz cuadrada del número x
         """        
         return self.x ** 0.5
